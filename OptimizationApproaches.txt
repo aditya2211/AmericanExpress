@@ -1,0 +1,11 @@
+Optimization Approaches
+-----------------------
+First add this:
+A number of known techniques can be used to find the parameters(mu sigma and mixture coefficients) of a mixture of Gaussian densities. Maximum Likelihood estimator can be one of them. Apart from MLE, Expectation Maximization (known as EM algorithm) is often employed to achieve the same because of its simplicity and covergence properties. Once we have gaussian densities then we normalize so that the peak values is 1 (in order for it to be a valid fuzzy membership function)
+
+http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=179841
+http://www.ressources-actuarielles.net/ext/isfa/1226.nsf/9c8e3fd4d8874d60c1257052003eced6/f84f7ac703bf5862c12576d8002f5259/$FILE/Jones98.pdf
+
+Then add this: 
+we suggest a heuristic of our own: 
+Put the 4 heuristic steps after eqn.6 and then proceed by saying now we apply gradient descent on this. ab baaki ki eqns.
